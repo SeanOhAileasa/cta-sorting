@@ -320,6 +320,7 @@ ENV/
 # Folders
 _obj
 _test
+hide/*
 
 # Architecture specific extensions/prefixes
 *.[568vq]

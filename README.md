@@ -1,6 +1,6 @@
 < [GMIT Data Analytics](https://web.archive.org/web/20201029063153/https://www.gmit.ie/computer-science-and-applied-physics/higher-diploma-science-computing-data-analytics-ict) | [Home](https://github.com/SeanOhAileasa) | [README](https://github.com/SeanOhAileasa/cta-sorting/blob/main/README.md) >
 
-[![GMIT](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/img/gmit.png?raw=true)](https://web.archive.org/web/20201029063153/https://www.gmit.ie/computer-science-and-applied-physics/higher-diploma-science-computing-data-analytics-ict)
+[![GMIT](https://github.com/SeanOhAileasa/SeanOhAileasa/blob/master/rc/gmit.png?raw=true)](https://web.archive.org/web/20201029063153/https://www.gmit.ie/computer-science-and-applied-physics/higher-diploma-science-computing-data-analytics-ict)
 
 ## Computational Thinking with Algorithms - Course Material 2021
 ### Topic: [Sorting](https://nbviewer.jupyter.org/github/SeanOhAileasa/cta-sorting/blob/main/cta-sorting.ipynb)
@@ -34,35 +34,6 @@ Keeping in mind the ambiguity or imprecision that in the real-world humans deal 
 - Define the desirable properties for sorting algorithms: i) stability - preserving the relative ordering of elements which are equally valued; ii) efficiency - making sure that the algorithms chosen are appropriate for the specific class of input instances and also to make sure that they will run in an acceptable amount of time; iii) in-place sorting - relates to memory usage when sorting [1].
 
 - Brief overview of some well-known sorting algorithms. Considering the criteria which might be used to choose an appropriate sorting algorithm from these well-known algorithms [1].
-
-<a id="top"></a>
-## Table of Contents
-
-## [Abstract](https://nbviewer.jupyter.org/github/SeanOhAileasa/cta-sorting/blob/main/cta-sorting.ipynb#abstract)
-<!--
-###### Keywords: -->
-
-## [Introduction](https://nbviewer.jupyter.org/github/SeanOhAileasa/cta-sorting/blob/main/cta-sorting.ipynb#introduction)
-<!--
-###### Keywords: -->
-
-## [Solution](https://nbviewer.jupyter.org/github/SeanOhAileasa/cta-sorting/blob/main/cta-sorting.ipynb#solution)
-<!--
-###### Keywords: -->
-
-## [Conclusion](https://nbviewer.jupyter.org/github/SeanOhAileasa/cta-sorting/blob/main/cta-sorting.ipynb#conclusion)
-<!--
-###### Keywords: -->
-<!--
-## Development
-
-###### Built-in:
-
-###### (A) Standard Library (a_S_tandard_L_ibrary-imports):
-
-###### (B) Third Party Library (b_T_hird_P_arty-imports):
-
-###### (C) Local Application (c_L_ocal_A_pplication-imports): -->
 
 ## Getting Started
 - Keeping in mind: i) GMIT assignment/project submission marking scheme; and ii) impression given to someone who is looking at this repository, endeavour to provide direct evidence of each of the items listed in each category where applicable - ``Research`` - ``Development`` - ``Consistency`` - ``Documentation``:
@@ -120,23 +91,38 @@ plot(x,y)
 
 - Jupyter Notebook text formatting/presentation to be tidied up closer to the deadline (if applicable).
 
-<!--## Coding Conventions
+## Coding Conventions
 
-- variable/name - functions - start with letters as follows
+- user-defined function / name (variable) - start with letters as follows
 
 | Example       | Signify 		          |
-| ------------- |:-----------------------:|
+| :------------ |:------------------------|
 |	f        	|	user-defined function |
-
-| Example       | Signify 		          |
-| ------------- |:-----------------------:|
-|	n        	|	name - no variables   |-->
+|	n        	|	name - no variables   |
 
 ## Prerequisites
+
+###### Anaconda
 
 - Require Python to be loaded on your local machine. Recommend downloading and installing Anaconda.
 
 https://www.anaconda.com/download/
+
+###### IPyPlot
+
+- ``IPyPlot`` is a small Python package offering fast and efficient plotting of images using ``IPython`` with HTML for displaying large numbers of images. [[Reference](http://web.archive.org/web/20201103205220/https://github.com/karolzak/ipyplot)]
+
+- installed through ``PyPI``:
+
+```
+pip install ipyplot
+```
+
+- installed directly from repo using pip:
+
+```
+pip install git+https://github.com/karolzak/ipyplot
+```
 
 ## Execute Jupyter Notebook
 
